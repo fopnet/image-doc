@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store/**
+.vscode/
+.nyc_output/
+config-assets/
+_logs/
+.env
+.DS_Store
+.editorconfig
+package-lock.json
