@@ -1,0 +1,12 @@
+{
+  "projects": {
+    "image-doc-template": {
+      "schemaPath": "./schema.graphql",
+      "extensions": {
+        "endpoints": {
+          "dev": "https://dev.com"
+        }
+      }
+    }
+  }
+}
