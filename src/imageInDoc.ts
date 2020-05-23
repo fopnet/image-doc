@@ -68,14 +68,16 @@ export const manipularArquivo = async (documentoWord): Promise<Buffer> => {
     // );
     // const imadeData = await fs.readFileSync("/Users/Felipe/Downloads/foto.jpeg", "latin1");
     // const imadeData = "/Users/Felipe/Downloads/foto.jpg";
-    const imadeData = "https://docxtemplater.com/xt-pro.png";
+    // const imadeData = "https://docxtemplater.com/xt-pro.png";
+    const imadeData =
+        "https://avatars3.githubusercontent.com/u/3894473?s=400&u=1cdfc4ccd0d14115f6012e14e482a974963c3dd7&v=4";
 
     const imageCache = {
         //
         image: imadeData,
     };
 
-    const data = { image: imageCache.image };
+    const data = { my_image: imageCache.image };
 
     const getImagePromise = tagValue =>
         new Promise(function (resolve, reject) {
