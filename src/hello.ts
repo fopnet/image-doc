@@ -3,8 +3,8 @@ import { manipularArquivo } from "./imageInDoc";
 import "./string.extensions";
 
 const hello = async () => {
-    // const file = "/Users/Felipe/Downloads/shape2.docx";
-    const file = "/Users/Felipe/Downloads/image.docx";
+    const file = "/Users/Felipe/Downloads/shape2.docx";
+    // const file = "/Users/Felipe/Downloads/image.docx";
 
     let targetBuf = null;
     

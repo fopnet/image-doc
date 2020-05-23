@@ -16,9 +16,11 @@
         "express-graphql": "^0.9.0",
         "glob": "^7.1.6",
         "graphql": "^15.0.0",
+        "https": "^1.0.0",
         "image-size": "^0.8.3",
         "pizzip": "^3.0.6",
         "resolve": "^1.17.0",
+        "stream": "0.0.2",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
